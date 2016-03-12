@@ -1,0 +1,24 @@
+{
+    "name": "xacml/xacml",
+    "description": "XACML implementation for PHP",
+    "type" : "library",
+    "authors" : [{
+        "name" : "Nikita Stenin",
+        "email" : "stenin.nikita@gmail.com"
+    }],
+    "keywords" : ["XACML", "ABAC", "Access Control", "Policy"],
+    "license" : [
+        "MIT"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Xacml\\" : "src/Xacml/"
+        }
+    }
+}
